@@ -10,5 +10,14 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	if(n>0){
+		printf("%d is postive")
+	}
+	if else(n==0){
+		printf("%d is zero")
+	}
+	else{
+		print("%d is negative")
+	}
 	return (0);
 }
