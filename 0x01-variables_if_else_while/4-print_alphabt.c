@@ -14,8 +14,8 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		if (alp[i] == 'e' || alp[i] == 'q')
-			i+=1;
-	        putchar(alp[i]);
+			i += 1;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
