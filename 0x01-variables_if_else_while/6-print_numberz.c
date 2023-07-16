@@ -11,6 +11,6 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 		return (i);
-	put('\n');
+	//put('\n');
 	return (0);
 }
