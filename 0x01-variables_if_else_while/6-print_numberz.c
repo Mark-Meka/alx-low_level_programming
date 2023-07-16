@@ -10,6 +10,6 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		put(i);
+		puts(i);
 	return (0);
 }
