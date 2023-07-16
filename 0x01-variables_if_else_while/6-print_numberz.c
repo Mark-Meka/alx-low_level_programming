@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		put("%d", i);
+		puts("%d", i);
 	put('\n');
 	return (0);
 }
