@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-	int main(void)
-{
 	int i;
 
 	for (i = '0'; i <= '0' + 9; i++)
@@ -20,4 +18,4 @@ int main(void)
 	return (0);
 
 }
-}
+
