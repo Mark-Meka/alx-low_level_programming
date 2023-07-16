@@ -8,14 +8,13 @@
 int main(void)
 {
 	int i;
+	char alp[6] = "abcdef";
+	int j;
 
 	for (i = '0'; i <= '0' + 9; i++)
 	{
 		putchar(i);
 	}
-
-	char alp[6] = "abcdef";
-	int j;
 
 	for (j = 0; j < 6; j++)
 	{
