@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-  * main - print_alphabet
-  *
-  * Return: void. No return value
-  */
+ * print_alphabet - Entry point for program execution.
+ * Description: a function that prints the alphabet
+ * in lowecase followed by a new line
+ * Return: void. No return value
+ */
 void print_alphabet(void)
 {
 	char letter = 'a';
