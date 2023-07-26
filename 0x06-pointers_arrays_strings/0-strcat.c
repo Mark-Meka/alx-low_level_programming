@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - append the src string to the dest string
  *
  * Return: Always 0.
  */
