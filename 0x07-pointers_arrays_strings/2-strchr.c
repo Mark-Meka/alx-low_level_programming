@@ -9,7 +9,7 @@
   */
 char *_strchr(char *s, char c)
 {
-	char *p; /* pointer to char*/
+	char *p;
 	int counter;
 
 	for (counter = 0; s[counter] != '\0'; counter++)
