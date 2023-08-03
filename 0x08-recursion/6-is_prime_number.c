@@ -11,7 +11,7 @@ int check(int a, int b)
 if (b < a)
 {
 	if (a % b == 0)
-		return (0)
+		return (0);
 	else
 		return (check(a, b + 1));
 }
