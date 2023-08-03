@@ -8,11 +8,11 @@ int factorial(int n)
 {
 	int x;
 	
-	if (x == 0)
+	if (n == 0)
 		return (1);
-	else if (x < 0)
+	else if (n < 0)
 		return (-1);
-	else if (x > 0)
+	else if (n > 0)
 	{
 		x = n * factorial(n - 1);
 	}
