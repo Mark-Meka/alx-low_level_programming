@@ -9,35 +9,39 @@
   */
 int main(int argc, char *argv[])
 {
-	int change, num;
+	int change = 0, num;
 
 	if (argc < 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	num = atoi(argv[1]);
+	
 	if (argv == 2)
 	{
-		for (; num >= 25; change ++)
+		num = atoi(argv[1]);
+		if (num > 0)
 		{
-			num = num - 25;
-		}
-		for (; num >= 10; change ++)
-		{
-			num = num - 10;
-		}
-		for (; num >= 5; change ++)
-		{
-			num = num - 5;
-		}
-		for (; num >= 2; change ++)
-		{
-			num = num - 2;
-		}
-		for (; num >= 1; change ++)
-		{
-			num = num -1;
+			for (; num >= 25; change ++)
+			{
+				num = num - 25;
+			}
+			for (; num >= 10; change ++)
+			{
+				num = num - 10;
+			}
+			for (; num >= 5; change ++)
+			{
+				num = num - 5;
+			}
+			for (; num >= 2; change ++)
+			{
+				num = num - 2;
+			}
+			for (; num >= 1; change ++)
+			{
+				num = num -1;
+			}
 		}
 	}
 	printf("%d\n", change);
