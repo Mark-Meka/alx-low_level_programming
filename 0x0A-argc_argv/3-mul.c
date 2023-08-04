@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 			mul = argc1 * argc2;
 			
-			printf("%s\n", mul);
+			printf("%d\n", mul);
 	}
 	else
 	{
