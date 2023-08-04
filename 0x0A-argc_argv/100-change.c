@@ -9,8 +9,9 @@
   */
 int main(int argc, char *argv[])
 {
-	int change = 0, num;
+	int change, num;
 
+	change = 0;
 	if (argc < 2)
 	{
 		printf("Error\n");
