@@ -10,7 +10,7 @@
   */
 int main(int argc, char *argv[])
 {
-	int argc1, argc2, mul;
+	int argc1, argc2, mul = 1;
 
 	if (argc == 3)
 	{
@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 			
 			printf("%d\n", mul);
 	}
+	
 	else
 	{
 		printf("Error\n");
