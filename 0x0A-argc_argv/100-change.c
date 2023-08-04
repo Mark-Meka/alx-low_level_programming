@@ -17,28 +17,28 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	
-	if (argv == 2)
+	else if(argv == 2)
 	{
 		num = atoi(argv[1]);
 		if (num > 0)
 		{
-			for (; num >= 25; change ++)
+			for (; num >= 25; change++)
 			{
 				num = num - 25;
 			}
-			for (; num >= 10; change ++)
+			for (; num >= 10; change++)
 			{
 				num = num - 10;
 			}
-			for (; num >= 5; change ++)
+			for (; num >= 5; change++)
 			{
 				num = num - 5;
 			}
-			for (; num >= 2; change ++)
+			for (; num >= 2; change++)
 			{
 				num = num - 2;
 			}
-			for (; num >= 1; change ++)
+			for (; num >= 1; change++)
 			{
 				num = num -1;
 			}
