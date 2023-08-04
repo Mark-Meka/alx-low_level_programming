@@ -8,7 +8,8 @@
   */
 int main (int argc, char *argv[])
 {
-	printf("Hello I am Mark: %d",argc);
+	(void)argc;
+
 	printf("Hello I am Mark: %s",argv[0];
 	printf("Hello I am Mark: %s",argv[1];
 	printf("Hello I am Mark: %s",argv[2];
