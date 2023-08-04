@@ -10,23 +10,21 @@
   */
 int main(int argc, char *argv[])
 {
-	int i;
 	int argc1, argc2, mul;
 
 	if (argc == 3)
 	{
-		for (i = 0; i < argc; i++)
-		{
 			argc1 = atoi(argv[1]);
 			argc2 = atoi(argv[2]);
 
 			mul = argc1 * argc2;
-			printf("%s\n", argv[i]);
-		}
+			
+			printf("%s\n", mul);
 	}
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
