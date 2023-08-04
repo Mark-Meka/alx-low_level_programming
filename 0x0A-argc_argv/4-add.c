@@ -12,25 +12,26 @@
   */
 int main(int argc, char *argv[])
 {
-	int sum, N1, N2;
+	int count, count2, sum;
+
+	sum = 0;
 
 	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);
 	}
-	
-	for (N1 = 1; N1 < argc; N1++)
+	for (count = 1; count < argc; count++)
 	{
-		for (N2 = 0; argv[N1][N2]; N2++)
+		for (count2 = 0; argv[count][count2] != '\0'; count2++)
 		{
-			if (argv[N1][N2] < '\0' || argv[N1][N2] > '9')
+			if (argv[count][count2] < '0' || argv[count][count2] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		sum += atoi(argv[N1]);
+		sum += atoi(argv[count]);
 	}
 	printf("%d\n", sum);
 	return (0);
